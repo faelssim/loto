@@ -1,0 +1,20 @@
+{
+  "name": "loto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter \"./packages/*\" -r dev",
+    "build": "pnpm --filter \"./packages/*\" -r build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

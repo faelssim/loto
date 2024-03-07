@@ -16,6 +16,12 @@ importers:
 
   packages/loto-crm:
     dependencies:
+      lib:
+        specifier: link:lib
+        version: link:lib
+      lib-core:
+        specifier: link:D:/workspace/personal/loto/lib-core
+        version: link:../../lib-core
       vue:
         specifier: ^3.4.19
         version: 3.4.21(typescript@5.3.3)

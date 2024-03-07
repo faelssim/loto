@@ -1,5 +1,5 @@
 {
-  "name": "loto-public",
+  "name": "lib-core",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "private": true
+  "license": "ISC"
 }

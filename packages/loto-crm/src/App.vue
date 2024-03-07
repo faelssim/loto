@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { formatDate } from 'lib-core';
 import { generate } from 'random-words';
 import HelloWorld from './components/HelloWorld.vue'
 console.log(generate());
+console.log(formatDate())
 </script>
 
 <template>
